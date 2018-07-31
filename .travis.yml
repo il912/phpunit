@@ -2,7 +2,7 @@ language: php
 php:
   - "5.6"
 before_install:
-  - php /home/travis/.phpenv/versions/5.6.29/bin/composer.phar self-update
+  - php /home/travis/.phpenv/versions/5.6/bin/composer.phar self-update
 before_script:
   - composer install
 script: phpunit --configuration phpunit.xml --coverage-text
