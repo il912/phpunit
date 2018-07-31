@@ -21,7 +21,6 @@ class Pages
 
     public function returnArray()
     {
-        $ops = 
         return array('Hello', 'World', 'This', 'Is', 'An', 'Array');
 
     }
