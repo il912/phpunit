@@ -21,6 +21,7 @@ class Pages
 
     public function returnArray()
     {
+        syntax error
         return array('Hello', 'World', 'This', 'Is', 'An', 'Array');
 
     }
