@@ -38,6 +38,7 @@ class PagesTest extends PHPUnit_Framework_TestCase
         $pages = new \Controllers\Core\Web\Pages();
 
         $this->assertTrue((count($pages->returnArray()) > 0));
+        // some change 1
 
     }
 
