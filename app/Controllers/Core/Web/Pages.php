@@ -22,6 +22,7 @@ class Pages
     public function returnArray()
     {
         return array('Hello', 'World', 'This', 'Is', 'An', 'Array');
+        // some change 2
 
     }
 
